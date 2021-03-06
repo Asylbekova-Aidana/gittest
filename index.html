@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+      </script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="wrapper">
+        <div class="container">
+            <nav>
+                <a class="logo" href="#">Logo</a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-ul" id="nav-ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =----------------feature section -->
+    <div class="card">
+        <img src="img/pexels-allan-mas-5383559.jpg" alt="">
+        <div class="info">
+            <h1>tour 1</h1>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quia?</p>
+            <a href="#"><button class="btn">Read More</button></a>
+        </div>
+    </div>
+
+     <!-- =--------------End--feature section -->
+
+
+
+
+
+
+
+     
+
+     <script>
+        $(".slider").owlCarousel({
+            loop:true,
+            autoplay:false,
+            autoplayTimeout:2000,//2000ms=2s
+             autoplayHoverPause:true,
+ 
+        })
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
